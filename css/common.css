@@ -1,0 +1,83 @@
+a{
+	color:#6C6C6C;
+}
+
+a:hover {
+	text-decoration: none;
+	color:#FF3300;
+}
+
+.fred{
+	color:#FF3300;
+}
+
+li{
+	list-style: none;
+}
+
+
+/* 页头导航条 */
+#common_top{
+	height:35px;
+	background-color: #F5F5F5;
+	line-height: 35px;
+	font-size: 12px;
+}
+
+#common_top .content{
+	width:1200px;
+	margin: 0 auto;
+}
+
+#common_top ul{
+	width:80px;
+	color:#6c6c6c;
+	display: inline-block;
+	cursor: pointer;
+	padding: 0 5px;
+}
+
+#common_top ul li{
+	display: none;
+}
+
+#common_top ul:hover{
+	background-color: #FFF;
+	color:#f40;
+}
+
+#common_top ul:hover li{
+	width:100px;
+	display: block;
+	background-color: #FFF;
+	color:#6c6c6c;
+}
+
+#common_top ul:hover .icon_star{
+	color:#f40;
+}
+
+
+#common_top a {
+	margin-right: 10px;
+	display: inline-block;
+}
+
+.icon_arrow{
+	color:#CCCCCC;
+	font-size:10px;
+	-webkit-transform:scale(0.7);
+	margin: 0 5px;
+}
+
+.icon_cart{
+	color:#f40;
+	font-size: 10px;
+	margin:0 5px;
+}
+
+.icon_star{
+	color:#9c9c9c;
+	font-size: 10px;
+	margin: 0 5px;
+}
